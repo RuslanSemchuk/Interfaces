@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    abstract class Car : IRadio , Iseats
+    abstract class Car 
     {
         protected double speed;
 
@@ -18,6 +18,6 @@ namespace Interfaces
 
         public abstract void Accelerate();
 
-
+        
     }
 }

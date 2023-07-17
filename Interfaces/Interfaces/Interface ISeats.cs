@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Interfaces
 {
-    internal class Interface_ISeats
+interface Iseats
     {
+        void AdjustPosition();
+        void HeatOn();
+        void HeatOff();
     }
 }
