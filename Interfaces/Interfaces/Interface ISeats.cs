@@ -1,10 +1,9 @@
-﻿
-namespace Interfaces
+﻿namespace Interfaces
 {
-interface Iseats
+    internal interface ISeats
     {
         void AdjustPosition();
-        void HeatOn();
         void HeatOff();
+        void HeatOn();
     }
 }
